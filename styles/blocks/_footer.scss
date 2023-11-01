@@ -1,0 +1,27 @@
+footer {
+  width: 100vw;
+  height: 60px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 -5px 5px -5px #a9a9a9;
+}
+
+.divfour {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.afooterissu {
+  padding: 18px 50px;
+  color: rgb(123, 123, 123);
+  font-size: 13px;
+}
+
+.afooter {
+  margin-left: 20px;
+  color: rgb(123, 123, 123);
+  font-size: 13px;
+}

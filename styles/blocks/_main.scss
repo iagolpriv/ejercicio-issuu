@@ -1,0 +1,116 @@
+main {
+  width: 100vw;
+  height: 81.5vh;
+  overflow: hidden;
+}
+
+section {
+  width: calc(100vw - 100px);
+  margin: 80px 130px 80px 130px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divone {
+  width: calc(100vw - 100px);
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 23px;
+}
+
+.buttondivone {
+  border: none;
+  width: 170px;
+  height: 35px;
+  background-color: rgb(57, 128, 244);
+  color: rgb(250, 250, 250);
+  font-size: 14px;
+  text-align: right;
+  padding: 10px;
+  align-items: center;
+  border-radius: 3px 3px 3px 3px;
+  margin-right: 10px;
+  background-image: url("../../assets/google.webp");
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+  background-position: left center;
+  background-position: 2%;
+}
+
+.buttondivtwo {
+  border: none;
+  width: 199px;
+  height: 35px;
+  background-color: rgb(66, 104, 178);
+  color: rgb(250, 250, 250);
+  font-size: 14px;
+  text-align: right;
+  padding: 10px;
+  align-items: center;
+  border-radius: 3px 3px 3px 3px;
+  background-image: url("../../assets/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left center;
+  background-position: 2%;
+}
+
+.pdiv {
+  margin-top: 23px;
+}
+
+.divtwo {
+  margin-top: 21px;
+  width: calc(100vw - 100px);
+}
+
+.lbl {
+  font-size: 14px;
+  font-weight: 550;
+  color: rgb(90, 90, 90);
+}
+
+.iptone {
+  margin-top: 5px;
+  width: 49vw !important;
+  height: 2rem;
+  padding-left: 10px;
+  color: rgb(215, 215, 215) !important;
+  border: 1px solid #000000;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.ipttwo {
+  margin-top: 5px;
+  width: 50vw !important;
+  height: 2rem;
+  background-image: url("../../assets/ojo.png");
+  background-repeat: no-repeat;
+  background-size: 22px 20px;
+  background-position: right 1% center;
+  border: 1px solid #000000;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.lbltwo {
+  padding-top: 5px;
+}
+
+.divthree {
+  width: calc(100vw - 100px);
+  margin-top: 10px;
+}
+
+.btnray {
+  width: 205px;
+  border: 2px dashed rgb(215, 215, 215);
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: rgb(215, 215, 215);
+  font-weight: 600;
+  display: block;
+  margin-top: 18px;
+}

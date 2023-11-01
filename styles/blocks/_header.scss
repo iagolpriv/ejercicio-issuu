@@ -1,0 +1,30 @@
+header {
+  width: 100vw;
+  height: 100px;
+  overflow: hidden;
+}
+
+nav {
+  width: calc(100vw - 100px);
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 5px 5px -5px #a9a9a9;
+}
+
+.logoissuu {
+  width: 120px;
+  height: 30px;
+}
+
+.signin {
+  color: rgb(78, 145, 239);
+  align-items: center;
+}
+
+p {
+  margin-bottom: 5px;
+  align-items: center;
+}
